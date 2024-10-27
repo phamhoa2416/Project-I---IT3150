@@ -82,6 +82,5 @@ int main()
 
     int result = graph.dijkstra(start, end);
     cout << result << endl;
-
     return 0;
 }
