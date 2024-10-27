@@ -46,6 +46,5 @@ if __name__ == "__main__":
     for _ in range(m):
         u, v, w = map(int, input().split())
         edges.append((w, u, v))
-        
     print(kruskal_mst(n, edges))
     

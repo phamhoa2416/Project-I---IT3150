@@ -91,6 +91,6 @@ int main() {
         g.add_edge(u, v, w);
     }
     
-    cout << g.kruskal_mst();
+    cout << g.kruskal_mst() << endl;
     return 0;
 }

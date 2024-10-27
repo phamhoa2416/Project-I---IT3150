@@ -28,7 +28,6 @@ class Graph {
             if (path[i] == v) 
                 return false;
         }
-        
         return true;
     }
     

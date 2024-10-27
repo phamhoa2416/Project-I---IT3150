@@ -31,7 +31,6 @@ bool hamiltonian_util(const vector<vector<int>>& graph, vector<int>& path, int p
             
             if (hamiltonian_util(graph, path, pos + 1))
                 return true;
-                
             path[pos] = -1;
         }
     }

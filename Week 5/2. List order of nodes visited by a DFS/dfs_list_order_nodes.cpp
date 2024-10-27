@@ -50,4 +50,5 @@ int main()
     }
 
     g.dfs(0);
+    return 0;
 }

@@ -68,7 +68,6 @@ public class BFSListOrderNodes {
             int v = sc.nextInt();
             g.addEdge(u, v);
         }
-        
         g.bfs_extend();
         sc.close();
     }

@@ -34,5 +34,4 @@ adj = [[] for _ in range(n)]
 for _ in range(m):
     u, v = map(int, input().split())
     add_edge(adj, u, v)
-
 bfs_extend(adj, n)

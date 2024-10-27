@@ -4,7 +4,6 @@ def is_safe(v, graph, path, pos):
         
     if v in path:
         return False
-            
     return True
     
 def hamilton_util(graph, path, pos):

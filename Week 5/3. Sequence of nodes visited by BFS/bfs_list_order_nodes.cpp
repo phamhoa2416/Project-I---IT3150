@@ -67,4 +67,5 @@ int main() {
     }
 
     g.bfs_extend();
+    return 0;
 }

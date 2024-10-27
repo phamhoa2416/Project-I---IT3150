@@ -17,7 +17,6 @@ def dfs(adj, u):
     
 if __name__ == "__main__":
     n, m = map(int, input().split())
-    
     adj = [[] for _ in range(n)]
     
     for _ in range(m):

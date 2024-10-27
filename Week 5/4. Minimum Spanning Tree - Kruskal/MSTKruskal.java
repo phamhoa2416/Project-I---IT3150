@@ -97,7 +97,6 @@ public class MSTKruskal {
                 result += edge.w;
             }
         }
-
         return result;
     }
 }
